@@ -9,7 +9,7 @@ function About(props) {
       {!props.bio} ? {null} : <p>{props.bio}</p>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       
-      <Links github={props.github} linkedin={props.linkedin}/>
+      <Links github={props.links.github} linkedin={props.links.linkedin}/>
     </div>
   );
 }
